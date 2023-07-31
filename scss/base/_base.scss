@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:ital,wght@1,900&display=swap');
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+img{
+	vertical-align: middle;
+    max-width: 100%;
+	height: auto;
+}
+body{
+    font-family: 'Roboto','Noto Sans TC', sans-serif;
+}
