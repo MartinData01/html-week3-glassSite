@@ -1,0 +1,20 @@
+.nav-bg{
+    background: #aa0601;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    // padding: 16px 0;
+    align-items: center;
+    img{
+        width: 80px;
+    }
+}
+.nav-items{
+    display: flex;
+    li a{
+        display: block;
+        padding: 25px 32px;
+        color: #fff;
+    }
+}

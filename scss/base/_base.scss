@@ -8,5 +8,15 @@ img{
 	height: auto;
 }
 body{
-    font-family: 'Roboto','Noto Sans TC', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+	line-height: 1.5;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+	max-width: 1296px;
+	margin: 0 auto;
+	padding: 0 12px;
 }
