@@ -5,10 +5,32 @@
     img{
         width: 80px;
     }
+    @media (max-width: 768px){
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 0 0 0;
+        h1{
+            padding-left: 16px;
+            padding-bottom: 16px;
+        }
+    }
 }
 .nav-items{
     li a{
         display: block;
         padding: 25px 32px;
+    }
+    @media (max-width: 768px){
+        width: 100%;
+        flex-wrap: wrap;
+        li {
+            width: 50%;
+            text-align: center;
+            outline: 1px solid $main-text-color;
+            a{
+                padding: 12px 0;  
+                font-size: 16px;
+            }
+        }
     }
 }
