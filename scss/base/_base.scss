@@ -13,10 +13,30 @@ body{
 }
 a{
 	text-decoration: none;
+	color: $main-text-color;
 }
 
 .container{
-	max-width: 1296px;
+	max-width: 1320px;
 	margin: 0 auto;
 	padding: 0 12px;
+}
+
+// 通用樣式
+.d-flex{
+	display: flex;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+.ai-center{
+	align-items: center;
+}
+
+.mb-24{
+	margin-bottom: 24px;
+}
+
+.pt-48{
+	padding-top: 48px;
 }
